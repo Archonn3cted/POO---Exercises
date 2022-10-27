@@ -1,26 +1,31 @@
-package POO.Prova_POO.QUESTAO_06;
+package ProvaQ06;
 
 import java.util.ArrayList;
 
-class Cliente {
+class Cliente 
+{
     private String nome;
-    private ArrayList<Conta_corrente> contas;
+    private ArrayList<ContaCorrente> contas;
 
-    public Cliente() {
+    public Cliente() 
+    {
         this.nome = "";
         this.contas = new ArrayList<>();
     }
 
-    public Cliente(String nome, ArrayList<Conta_corrente> contas) {
+    public Cliente(String nome, ArrayList<ContaCorrente> contas) 
+    {
         this.nome = nome;
         this.contas = contas;
     }
 
-    public String getNome() {
+    public String getNome() 
+    {
         return nome;
     }
 
-    public ArrayList<Conta_corrente> getContas() {
+    public ArrayList<ContaCorrente> getContas() 
+    {
         return contas;
     }
 
