@@ -1,12 +1,15 @@
 package ProvaQ02;
 
-public class Carro {
+public class Carro 
+{
     protected String modelo;
     protected int capacidadeMaxima;
     protected int quantidadePessoa;
 
-    public Carro(String modelo, int capacidadeMaxima, int quantidadePessoa){
-        if (quantidadePessoa <= capacidadeMaxima){
+    public Carro(String modelo, int capacidadeMaxima, int quantidadePessoa)
+    {
+        if (quantidadePessoa <= capacidadeMaxima)
+        {
             this.modelo = modelo;
             this.capacidadeMaxima = capacidadeMaxima;
             this.quantidadePessoa = quantidadePessoa;
@@ -15,20 +18,24 @@ public class Carro {
         }
     }
 
-    public String getModelo() {
+    public String getModelo() 
+    {
         return modelo;
     }
 
-    public void setQuantidadePessoa(int quantidadePessoa) {
+    public void setQuantidadePessoa(int quantidadePessoa) 
+    {
         this.quantidadePessoa = quantidadePessoa;
     }
 
     @Override
-    public String toString() {
+    public String toString() 
+    {
         return "Carro: " + modelo + ", capacidade maxima: " + capacidadeMaxima + ", quantidade de pessoa: ";
     }
 
-    public int setQuantidadePessoa() {
+    public int setQuantidadePessoa() 
+    {
         return 0;
     }
 }
