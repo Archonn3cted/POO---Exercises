@@ -1,9 +1,10 @@
-package POO.Prova_POO.QUESTAO_04;
+package ProvaQ04;
 
-public class PIX implements Metodo_de_pagamento{
-
+public class PIX implements MetodoDePagamento
+{
     @Override
-    public String processar() {
+    public String Pagamento() 
+    {
         return "Pagamento realizado pelo Pix";
     }
 }
