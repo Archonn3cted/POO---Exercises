@@ -1,4 +1,4 @@
-package POO.Prova_POO.QUESTAO_02;
+package ProvaQ02;
 
 public class Carro {
     protected String modelo;
