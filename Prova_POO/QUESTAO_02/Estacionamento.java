@@ -1,26 +1,32 @@
-package POO.Prova_POO.QUESTAO_02;
+package ProvaQ02;
 
 import java.util.ArrayList;
 
-public class Estacionamento {
+public class Estacionamento 
+{
 
     ArrayList<Carro> carros = new ArrayList<>();
 
-    public void estacionar_Carro(Carro carro){
+    public void estacionarCarro(Carro carro)
+    {
         carros.add(carro);
     }
 
-    public int verQuantidade_Pessoas_Estacionamento(){
-        int total_Pessoas = 0;
-        for (Carro carro : carros){
-            total_Pessoas += carro.setQuantidadePessoa();
+    public int verQuantidadePessoasEstacionamento()
+    {
+        int TotalPessoas = 0;
+        for (Carro carro : carros)
+        {
+            TotalPessoas += carro.setQuantidadePessoa();
         }
-        System.out.printf("Tem %d pessoas no estacionamento \n", total_Pessoas);
-        return total_Pessoas;
+        System.out.printf("Tem %d pessoas no estacionamento \n", TotalPessoas);
+        return TotalPessoas;
     }
 
-    public void listar_Carros(){
-        for (Carro carro : carros){
+    public void ListarCarros()
+    {
+        for (Carro carro : carros)
+        {
             System.out.println(carro);
         }
     }   
