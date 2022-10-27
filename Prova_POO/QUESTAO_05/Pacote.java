@@ -1,11 +1,10 @@
-package POO.Prova_POO.QUESTAO_05;
+package ProvaQ05;
 
-public class Pacote extends Ufal_bluetooth{
-
+public class Pacote extends UfalBluetooth
+{
     @Override
-    public void processarDados() {
+    public void ProcessarDados() 
+    {
         System.out.println("Processando Pacotes");
-
     }
-
 }
