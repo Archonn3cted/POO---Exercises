@@ -30,18 +30,18 @@ class ContaCorrente
         Saldo += value;
     }
 
-    protected boolean withdraw(double value) 
+    protected boolean Sacar(double value) 
     {
         if(Saldo - value < 0) return false;
         Saldo -= value;
         return true;
     }
 
-    boolean transfer(ContaCorrente account) 
+    boolean transfer(ContaCorrente contas) 
     {
         double transferValue = this.getSaldo();
-        this.withdraw(transferValue);
-        account.Depositar(transferValue);
+        this.Sacar(transferValue);
+        contas.Depositar(transferValue);
         return true;
     }
 
