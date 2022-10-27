@@ -1,15 +1,15 @@
-package POO.Prova_POO.QUESTAO_04;
+package ProvaQ04;
 
-public class Main {
-
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
         Boleto b = new Boleto();
 
-        Teste pagamento = new Teste();
-        pagamento.pagar(b);
+        Teste Pagamento = new Teste();
+        Pagamento.Pagar(b);
 
         PIX p = new PIX();
-        pagamento.pagar(p);
+        Pagamento.Pagar(p);
     }
-
 }
