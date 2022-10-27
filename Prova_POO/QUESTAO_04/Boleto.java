@@ -1,4 +1,4 @@
-package POO.ProvaPOO.QUESTAO04;
+package ProvaQ04;
 
 public class Boleto implements MetodoDePagamento
 {
