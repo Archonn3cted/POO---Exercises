@@ -1,9 +1,9 @@
-package POO.Prova_POO.QUESTAO_04;
+package ProvaQ04;
 
-public class Teste {
-
-    public void pagar(Metodo_de_pagamento p){
-        System.out.println(p.processar());
+public class Teste 
+{
+    public void pagar(MetodoDePagamento p)
+    {
+        System.out.println(p.Pagamento());
     }
-
 }
