@@ -1,10 +1,10 @@
-package POO.Prova_POO.QUESTAO_04;
+package POO.ProvaPOO.QUESTAO04;
 
-public class Boleto implements Metodo_de_pagamento{
-
+public class Boleto implements MetodoDePagamento
+{
     @Override
-    public String processar() {
+    public String Pagamento() 
+    {
         return "Pagamento realizado pelo Boleto";
     }
-
 }
